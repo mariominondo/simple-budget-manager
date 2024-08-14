@@ -51,7 +51,7 @@ To get a local copy up and running, follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/yourusername/simple-budget-manager.git
+   git clone https://github.com/mariominondo/simple-budget-manager.git
    ```
 2. Install PHP dependencies
    ```sh
@@ -82,6 +82,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - email@example.com
-
-Project Link: [https://github.com/yourusername/simple-budget-manager](https://github.com/yourusername/simple-budget-manager)
+Project Link: [https://github.com/mariominondo/simple-budget-manager](https://github.com/mariominondo/simple-budget-manager)
