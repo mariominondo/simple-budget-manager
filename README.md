@@ -10,7 +10,7 @@ Simple Personal Budget Manager is a lightweight application designed to help ind
 
 - [Laravel](https://laravel.com) - The PHP framework for web artisans
 - [MySQL](https://www.mysql.com) - Open-source relational database
-- [Bootstrap](https://getbootstrap.com) - Front-end open source toolkit
+- [Tailwindcss](https://tailwindcss.com/) - Front-end open source toolkit
 
 ## Features
 
