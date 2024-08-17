@@ -39,6 +39,11 @@ php artisan serve
 
 Then visit `http://localhost:8000` to view the app.
 
+Build style assets:
+```sh
+npm run dev
+```
+
 ## Get the style right
 
 Your patch should follow the same conventions & pass the same code quality checks as the rest of the project. `php artisan test` will give you feedback in this regard.

@@ -17,13 +17,9 @@ return new class extends Migration
             $table->decimal('amount', 10, 2);
             $table->enum('type',['income', 'expense']);
             $table->text('description');
-            $table->unsignedBigInteger('category_id');
+            $table->foreignId('category_id')->nullable()->constrained()->nullOnDelete();
             $table->date('date');
             $table->timestamps();
-        });
-
-        Schema::table('transactions', function (Blueprint $table) {
-            $table->foreign('category_id')->references('id')->on('categories')->onDelete('cascade');
         });
     }
 

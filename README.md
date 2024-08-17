@@ -10,7 +10,7 @@ Simple Personal Budget Manager is a lightweight application designed to help ind
 
 - [Laravel](https://laravel.com) - The PHP framework for web artisans
 - [MySQL](https://www.mysql.com) - Open-source relational database
-- [Bootstrap](https://getbootstrap.com) - Front-end open source toolkit
+- [Tailwindcss](https://tailwindcss.com/) - Front-end open source toolkit
 
 ## Features
 
@@ -67,9 +67,9 @@ To get a local copy up and running, follow these simple steps.
    ```
 5. Create a database for the application
 6. In the .env file, add database information to allow Laravel to connect to the database
-7. Migrate the database
+7. Migrate and seed the database
    ```sh
-   php artisan migrate
+   php artisan migrate --seed
    ```
 
 ## Contributing
